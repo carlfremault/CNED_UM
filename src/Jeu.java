@@ -1,21 +1,21 @@
 /**
- * Informations et mï¿½thodes communes aux jeux client et serveur
+ * Informations et méthodes communes aux jeux client et serveur
  *
  */
 public abstract class Jeu {
 
 	/**
-	 * Rï¿½ception d'une connexion (pour communiquer avec un ordinateur distant).
+	 * Réception d'une connexion (pour communiquer avec un ordinateur distant)
 	 */
 	public abstract void connexion() ;
 	
 	/**
-	 * Rï¿½ception d'une information provenant de l'ordinateur distant
+	 * Réception d'une information provenant de l'ordinateur distant
 	 */
 	public abstract void reception() ;
 	
 	/**
-	 * Dï¿½connexion de l'ordinateur distant
+	 * Déconnexion de l'ordinateur distant
 	 */
 	public abstract void deconnexion() ;
 	
