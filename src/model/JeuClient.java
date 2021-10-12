@@ -1,5 +1,6 @@
+package model;
 /**
- * Gestion du jeu côté client
+ * Gestion du jeu cï¿½tï¿½ client
  *
  */
 public class JeuClient extends Jeu {
@@ -24,7 +25,7 @@ public class JeuClient extends Jeu {
 
 	/**
 	 * Envoi d'une information vers le serveur
-	 * fais appel une fois à l'envoi dans la classe Jeu
+	 * fais appel une fois ï¿½ l'envoi dans la classe Jeu
 	 */
 	public void envoi() {
 	}
